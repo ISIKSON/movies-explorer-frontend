@@ -1,0 +1,131 @@
+.nav-main__link {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-main__link:hover {
+    opacity: 0.6;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.nav-main__link_green {
+    background-color: #2BE080;
+    padding: 8px 20px;
+    color: #000000;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.nav-account {
+    margin-left: 44px;
+    width: 100%;
+    max-width: 1058px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-account__profil {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+    margin: 0;
+    padding: 9px 12px;
+    border: solid 1px #AAAAAA;
+    border-radius: 25px;
+}
+
+.nav-profile-link {
+    padding: 0;
+    margin-left: 7px;
+    align-items: center;
+    text-decoration: none;
+    font-style: normal;
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.nav-profile-link:hover {
+    opacity: 0.6;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.nav-movie-link {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 16px;
+}
+
+.nav-movie-link:hover {
+    opacity: 0.6;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.nav-movie-link:last-of-type {
+    font-weight: 400;
+    margin-right: 0;
+}
+
+.nav-account__burger {
+    display: none;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.nav-account__burger:hover {
+    opacity: 0.6;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-main__link_green {
+        margin-left: 30px;
+    }
+
+    .nav-account {
+        margin-left: 0;
+        width: 44px;
+        display: inline;
+    }
+
+    .nav-account__movies {
+        display: none;
+    }
+
+    .nav-account__profil {
+        display: none;
+    }
+
+    .nav-account__burger {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav-main__link {
+        font-size: 10px;
+    }
+
+    .nav-main__link_green {
+        padding: 5px 12px;
+        margin-left: 14px;
+    }
+}

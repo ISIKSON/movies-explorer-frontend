@@ -9,7 +9,7 @@ function Register() {
             <img className="register__logo" src={logotype} alt="Student" />
             <h2 className="register__title">Добро пожаловать!</h2>
             <form className="register__form">
-                <label for="username">Имя</label>
+                <label className="register__label" htmlFor="username">Имя</label>
                 <input
                     id="username"
                     className="register__input"
@@ -19,9 +19,9 @@ function Register() {
                     maxLength="40"
                     required
                 />
-                <span id="username-error" class="error">Что-то пошло не так...</span>
+                <span id="username-error" className="error">Что-то пошло не так...</span>
 
-                <label for="email">E-mail</label>
+                <label className="register__label" htmlFor="email">E-mail</label>
                 <input
                     id="email"
                     className="register__input"
@@ -31,9 +31,9 @@ function Register() {
                     maxLength="40"
                     required
                 />
-                <span id="email-error" class="error">Что-то пошло не так...</span>
+                <span id="email-error" className="error">Что-то пошло не так...</span>
 
-                <label for="password">Пароль</label>
+                <label className="register__label" htmlFor="password">Пароль</label>
                 <input
                     id="password"
                     className="register__input"
@@ -43,7 +43,7 @@ function Register() {
                     maxLength="40"
                     required
                 />
-                <span id="password-error" class="error">Что-то пошло не так...</span>
+                <span id="password-error" className="error">Что-то пошло не так...</span>
                 
                     <button className="register__button" type="submit">
                         Зарегистрироваться

@@ -9,7 +9,7 @@ function Login() {
             <img className="login__logo" src={logotype} alt="Student" />
             <h2 className="login__title">Рады видеть!</h2>
             <form className="login__form">
-                <label for="email">E-mail</label>
+                <label className="login__label" htmlFor="email">E-mail</label>
                 <input
                     id="email"
                     className="login__input"
@@ -19,9 +19,9 @@ function Login() {
                     maxLength="40"
                     required
                 />
-                <span id="email-error" class="error">Что-то пошло не так...</span>
+                <span id="email-error" className="error">Что-то пошло не так...</span>
 
-                <label for="password">Пароль</label>
+                <label className="login__label" htmlFor="password">Пароль</label>
                 <input
                     id="password"
                     className="login__input"
@@ -31,7 +31,7 @@ function Login() {
                     maxLength="40"
                     required
                 />
-                <span id="password-error" class="error">Что-то пошло не так...</span>
+                <span id="password-error" className="error">Что-то пошло не так...</span>
                 
                     <button className="login__button" type="submit">
                         Войти
