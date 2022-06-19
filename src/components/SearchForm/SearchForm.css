@@ -19,8 +19,15 @@
     background: #F9F9F9;
     border: none;
     border-radius: 5px;
-    outline: none;
+    outline: 0; 
 }
+
+.search-form-content__input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lightblue;
+}
+
+
 
 .search-form-content__button {
     padding: 0;

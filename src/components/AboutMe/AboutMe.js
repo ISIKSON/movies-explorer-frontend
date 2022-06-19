@@ -22,12 +22,12 @@ function AboutMe() {
                             </p>
                         <ul className="about-me-links">
                             <li className="about-me-links__profile">
-                                <a href="https://www.facebook.com/" className="about-me-links__link">
+                                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/" className="about-me-links__link">
                                     Facebook
                                 </a>
                             </li>
                             <li className="about-me-links__profile">
-                                <a href="https://github.com/ISIKSON" className="about-me-links__link">
+                                <a target="_blank" rel="noreferrer" href="https://github.com/ISIKSON" className="about-me-links__link">
                                     Github
                                 </a>
                             </li>
