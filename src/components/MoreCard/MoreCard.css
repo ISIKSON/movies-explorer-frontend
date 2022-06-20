@@ -1,0 +1,33 @@
+.more-card__button {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 80px auto;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid #E8E8E8;
+    width: 320px;
+    height: 36px;
+    font-style: normal;
+    font-family: 'Inter', "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.more-card__button:hover {
+    opacity: 0.9;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+
+@media screen and (max-width: 730px) {
+    .more-card__button {
+        width: 240px;
+    }
+  }

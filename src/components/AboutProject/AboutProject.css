@@ -1,0 +1,213 @@
+.about-project {
+    padding: 110px 70px;
+}
+
+.about-project-content {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.section-title {
+    font-family: 'Inter', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    align-items: center;
+    color: #000000;
+    margin:0 0 23px 0;
+}
+
+hr {
+    color: #000000;
+    max-width: 1140px;
+}
+
+.about-project-stage {
+    margin: 70px auto 110px auto ;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    column-gap: 40px;
+}
+
+.about-project-stage__subtitle {
+    margin: 0;
+    margin-bottom: 26px;
+    padding: 0;
+    font-family: 'Inter', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.about-project-stage__description {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.about-project-weeks {
+    display: flex;
+}
+
+.about-project-weeks__week {
+    margin: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.about-project-weeks__week_back {
+    text-align: center;
+    width: 200px;
+    background-color: #2BE080;
+    padding: 9px 14px;
+}
+
+.about-project-weeks__week_front {
+    text-align: center;
+    width: 200px;
+    background-color: #F2F2F2;
+    padding: 9px 356px;
+}
+/*-------------------------------------------------------------------------------------*/
+.about-project-names {
+    display: flex;
+}
+
+.about-project-names__name {
+    margin: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A0A0A0;
+}
+
+.about-project-names__name_back {
+    text-align: center;
+    width: 200px;
+    padding: 14px 14px 0 14px;
+}
+
+.about-project-names__name_front {
+    text-align: center;
+    width: 200px;
+    padding: 14px 356px 0 356px;
+}
+
+@media screen and (max-width: 1280px) {
+    .about-project {
+        padding: 90px 50px;
+    }
+    .about-project-content {
+        max-width: 668px;
+    }
+
+    .about-project-stage {
+        margin: 70px auto 93px auto ;
+        grid-template-columns: 319px 319px;
+        column-gap: 30px;
+    }
+
+    .about-project-stage__subtitle {
+        margin-bottom: 22px;
+    }
+
+    .about-project-weeks__week_back {
+        text-align: center;
+        width: 120px;
+        background-color: #2BE080;
+        padding: 9px 10px;
+    }
+
+    .about-project-weeks__week_front {
+        text-align: center;
+        width: 115.62px;
+        background-color: #F2F2F2;
+        padding: 9px 206px;
+    }
+
+    .about-project-names__name_back {
+        text-align: center;
+        width: 120px;
+        padding: 14px 10px 0 10px;
+    }
+    
+    .about-project-names__name_front {
+        text-align: center;
+        width: 120px;
+        padding: 14px 206px 0 206px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .about-project {
+        padding: 70px 18px;
+    }
+
+    .about-project-content {
+        max-width: 284px;
+    }
+
+    .about-project-stage {
+        margin: 60px auto 60px auto ;
+        grid-template-columns: 284px;
+        row-gap: 56px;
+    }
+
+    .about-project-stage__subtitle {
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .about-project-stage__description {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .about-project-weeks__week {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .about-project-weeks__week_back {
+        text-align: center;
+        width: 80px;
+        background-color: #2BE080;
+        padding: 11px 10px;
+    }
+
+    .about-project-weeks__week_front {
+        text-align: center;
+        width: 80px;
+        background-color: #F2F2F2;
+        padding: 11px 52px;
+    }
+
+    .about-project-names__name {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .about-project-names__name_back {
+        text-align: center;
+        width: 120px;
+        padding: 10px 10px 0 10px;
+    }
+    
+    .about-project-names__name_front {
+        text-align: center;
+        width: 120px;
+        padding: 10px 52px 0 52px;
+    }
+  }
